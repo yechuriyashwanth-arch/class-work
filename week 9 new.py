@@ -20,8 +20,7 @@ for i in arr1:
     print('Array elements after revere operation :')
     for i in arr1:
         print(i,end='')
-        
-        #2nd quetion
+#2nd quetion
 import numpy as np
 #create a numpy array
 arr=np.array([10,20,30,40])
@@ -31,4 +30,4 @@ print("Sum :",np.sum(arr))
 print("Mean :",np.mean(arr))
 print("Maximum :",np.max(arr))
 print("Array + 5 :",arr+5)#add 5 to each element
-#outpuy not come in vs code because it has
+#outpuy not come in vs code because it does not have array copy code and paste in online compiler
